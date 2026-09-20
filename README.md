@@ -1,8 +1,6 @@
 # Yatra Sarthi — Smart Tourism Assistant for Uttarakhand
 
-**Smart India Hackathon 2026 · Problem Statement ID 26204 (AICTE, MIC-Student Innovation · Theme: Travel & Tourism · Category: Software)**
-
-> *"Student Innovation — A solution/idea that can boost the current situation of the tourism industries including hotels, travel and others."*
+> *An AI travel assistant, trip planner, weather-safety watch, crowd advisor and local marketplace — built to boost the tourism industry including hotels, travel and others.*
 
 Yatra Sarthi is a one-stop smart tourism platform piloted for **Uttarakhand**. Travellers **sign up / log in**, then type plain-language queries (English or Hinglish); the system parses the **intent** with a machine-learning classifier, extracts trip details, and responds with the right service — a **day-wise itinerary**, a **7-day weather and safety outlook**, **transport routing**, or the **festival calendar**. Risky weather days are **replanned automatically**. The **Crowd Advisor** flags overcrowded famous spots and recommends nearby lesser-known alternatives *with the reason they work* — the decongestion feature. The **Local Bazaar** lets travellers book verified local restaurants, guides, taxis, artisans and experiences directly, putting money into hill families' hands. A **role-protected analytics dashboard** gives the tourism department live demand and local-economy signals.
 
@@ -40,7 +38,7 @@ Yatra Sarthi is a one-stop smart tourism platform piloted for **Uttarakhand**. T
 - **Database:** **SQLite** (`data/yatrasarthi.db`) — reference tables loaded from auditable CSV datasets + runtime tables (`query_log`, `plans`, `feedback`)
 - **Frontend:** hand-written **HTML + CSS + JavaScript** (no framework), responsive, real tourist photography
 
-## Datasets (show these to the judges)
+## Datasets
 
 | File | Contents |
 |---|---|
@@ -95,7 +93,7 @@ YatraSarthi/
 └── requirements.txt
 ```
 
-## How it boosts the tourism industry (pitch points)
+## How it boosts the tourism industry
 
 1. **Converts interest into bookings** — a complete plan with costs removes the biggest drop-off point for first-time hill travellers.
 2. **Safety-first travel** — weather-graded days and automatic replanning reduce monsoon/snow-season incidents and cancellations.
