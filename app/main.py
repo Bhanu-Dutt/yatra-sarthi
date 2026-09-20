@@ -32,7 +32,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
 
 app = FastAPI(title="Yatra Sarthi", version="2.0",
-              description="Smart Tourism Assistant for Uttarakhand — SIH 2026 PS 26204")
+              description="Smart Tourism Assistant for Uttarakhand")
 
 COOKIE = "ys_session"
 
