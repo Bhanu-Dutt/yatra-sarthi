@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments (create your own: see "Run it" in README.md)
+.venv/
+venv/
+
+# SQLite databases — runtime state (users, sessions, bookings, query log),
+# rebuilt from the seed CSVs in data/ at app startup
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Environment / local files
+.env
+.DS_Store
